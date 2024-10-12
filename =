@@ -1,0 +1,2 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Requirement already satisfied: torch in /home/mclab/anaconda3/lib/python3.9/site-packages (1.10.0+cu113)

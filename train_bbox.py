@@ -25,7 +25,7 @@ from models.MODEL import MODEL
 import argparse
 parser = argparse.ArgumentParser()
 parser.add_argument('--log_root_dir', type=str, default='logs_train_bbox', help='root dir of log files')
-parser.add_argument('--dataset_root_dir', type=str, default='./dataset', help='root dir of dataset')
+parser.add_argument('--dataset_root_dir', type=str, default='./dataset_anonymous', help='root dir of dataset')
 parser.add_argument('--correction_matrix_path', type=str, default='./init/correction_matrix.npy')
 
 parser.add_argument('--train_people_ids', type=str, default='0,3,4,5,6,7,9,12,13,14', help='List of train people IDs separate with a single comma')
